@@ -5,24 +5,29 @@
     font-family: "Open Sans", sans-serif;
 }
 body {
-    display: flex;
-    padding: 0 10px;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background: #5E63BA;
+background-image:url("IMG_4337.jpg");
+position:relative;
+background-size: cover;
+margin:70px 60px;
+align-items: center;
+justify-content: center;
+
 }
 .wrapper{
-	background:pink;
-	padding:80px;
-	border-radius:80px;
+	width:1000px;
+	border-radius:20px;
+	background-color:black;
+	position:relative;
+	left:10%;
+
 }                
-.container {
+.container {	
     display: flex;
     width: 850px;
+	height:450px;
     gap: 70px;
-    padding: 60px 80px;
-    background: #fff;
+    padding: 40px 80px;
+    background: #F8E368;
     border-radius: 10px;
     align-items: flex-end;
     justify-content: space-between;
