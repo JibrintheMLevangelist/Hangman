@@ -12,7 +12,7 @@ const resetGame=()=>
 {
 	correctLetters=[];
 	wrongGuessCount=0;
-	hangmanImage.src="Annotation 2024-03-29 095515";
+	hangmanImage.src=`hangman-${wrongGuessCount}.jpg`;
 	guessesText.innerText=`${wrongGuessCount}/${maxGuesses}`;
 	wordDisplay.innerHTML=currentWord.split("").map(()=>`<li class="letter"></li>`.join("");
 	keyboardDiv.querySelectorAll("button").forEach(btn=>btn.disabled=false);
